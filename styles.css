@@ -1,0 +1,302 @@
+/* STYLESHEET FOR THE FLIP LAB  */
+
+body {
+display: flex;
+justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 795px;
+  height: 330px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.containerblue {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin: 25px 15.5px 63px 31px;
+  width: 216px;
+  height: 242px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:blue;
+  }
+
+.image img{
+display: block;
+align-content:center;
+width: 212px;
+height: 205px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+border-style: solid;
+border-width: 0px;
+border-color:blue;
+padding: 0px;
+  }
+
+.choices5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  margin-bottom: 0px;
+  width: 216;
+  height: 34px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 2px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  text-decoration: none;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 36px;
+  width: 42px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height:36px;
+  width: 42px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+  height: 36px;
+  width: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.swatch {
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  font-size: 28px;
+  color: black;
+  font: red;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  height: 30px;
+  width: 40px;
+  margin-top: -2px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.cart   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height:30px;
+  width: 42px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color:blue;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.fliptab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -241px;
+  left: 187px;
+  font-size: 20px;
+  height:25px;
+  width: 27px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+.footerblue {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top: -18px;
+  margin-left: auto;
+  width: 216px;
+  height: 31px;
+}
+
+.savetree {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 24px;
+  display: block;
+  position: relative;
+  color: green;
+  text-align: left;
+  margin-top:  -12px;
+  width: 148px;
+  height: 26px;
+}
+.pricetree {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  display: block;
+  position: absolute;
+  text-align: right;
+  margin-left: -30px;
+  margin-top: -12px;
+  color: green;
+  width: 30px;
+  height: 26px;
+}
+
+ .containerpink {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin: 25px 15.5px 63px 15.5px;
+  width: 216px;
+  height: 242px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:blue;
+  }
+
+  .containergold {
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-start;
+   margin: 25px 31px 63px 15.5px;
+   width: 216px;
+   height: 242px;
+   border-style: solid;
+   border-width: 2px;
+   border-color:blue;
+   }
+
+/*              TOOLTIPS                    */
+
+
+   a.tooltips {
+     position: relative;
+     display: inline;
+   }
+
+   a.tooltips span {
+     position: absolute;
+  width: 102px;
+  color: yellow;
+  background: #FFFFFF;
+  height: 120px;
+  line-height: 30px;
+  text-align:center;
+  visibility: hidden;
+  border-radius: 6px;
+  border: 4px solid #91bfe1;
+   }
+   a.tooltips span:after {
+     content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #ffffff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  text-decoration: none;
+   }
+   a:hover.tooltips span {
+     visibility: visible;
+     opacity: 1;
+     top:  -126px;
+     left: 22px;
+     margin-left: -57px;
+     z-index: 999;
+   }
+
+   a.tooltipsx {
+     position: relative;
+     display: inline;
+   }
+
+   a.tooltipsx span {
+     position: absolute;
+   width: 102px;
+   color: white;
+   background: #FFFFFF;
+   height: 223px;
+   line-height: 30px;
+   text-align:center;
+   visibility: hidden;
+   border-radius: 6px;
+   border: 4px solid #91bfe1;   /*#91bfe1;*/
+   }
+   a.tooltipsx span:after {
+     content: '';
+   position: absolute;
+   bottom: -9px;
+   left: 50%;
+   margin-left: -8px;
+   width: 0px;
+   height: 0px;
+   border-top: 8px solid #ffffff;
+   border-right: 8px solid transparent;
+   border-left: 8px solid transparent;
+   text-decoration: none;
+   }
+   a:hover.tooltipsx span {
+     visibility: visible;
+     opacity: 1;
+     top:  -200px;
+     left: 22px;
+     margin-left: -57px;
+     z-index: 999;
+   }
